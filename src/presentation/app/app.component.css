@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: auto;
+  max-width: 1200px;
+  font-family: sans-serif;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  padding: 16px;
+}
+
+.btn {
+  background-color: transparent;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #000;
+  border: 1px solid transparent;
+  max-width: 100px;
+}
+
+.btn-primary {
+  background-color: #4287f5;
+  color: #fff;
+  background-color: 1px solid #4287f5;
+}

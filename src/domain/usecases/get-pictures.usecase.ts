@@ -8,6 +8,6 @@ export class GetPicturesUseCase implements Usecase<Pagination, Picture[]> {
     constructor(private repo: PictureReposiroty) {}
 
     public execute(pagination: Pagination): Observable<Picture[]> {
-        return this.repo.getPictures();
+        return this.repo.getPictures(pagination);
     }
 }
