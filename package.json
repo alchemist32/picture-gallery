@@ -19,7 +19,7 @@
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
     "axios": "^1.7.7",
-    "cookieconsent": "git@github.com:alchemist32/cookieconsent.git#96fc0f0c2fc8f1849af575853a346aa3c8959676",
+    "cookieconsent": "git@github.com:alchemist32/cookieconsent.git#e51dc0881c2159ba693cc717bccbfc03d2f1141f",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
