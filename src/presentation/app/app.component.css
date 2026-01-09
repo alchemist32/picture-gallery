@@ -1,0 +1,6 @@
+.app-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    grid-template-rows: auto 1fr auto;
+}

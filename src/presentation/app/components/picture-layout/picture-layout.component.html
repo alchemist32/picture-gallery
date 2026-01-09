@@ -1,0 +1,7 @@
+<ul class="gallery-grid">
+    <ng-container *ngFor="let picture of (pictures$ | async)">
+        <li class="gallery-item">
+            <gallery-picture [picture]="picture"></gallery-picture>
+        </li>
+    </ng-container>
+</ul>

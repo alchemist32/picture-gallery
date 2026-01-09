@@ -1,0 +1,28 @@
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media-links {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.social-media-links a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.social-media-links a:hover {
+  color: #0056b3;
+}
+
+.social-media-links a i:hover {
+  color: #0056b3;
+}
